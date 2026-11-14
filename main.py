@@ -320,7 +320,7 @@ if __name__ == "__main__":
             "PUSH_WECHAT_WEBHOOK_KEY": os.environ.get("PUSH_WECHAT_WEBHOOK_KEY", ""),
             "TELEGRAM_BOT_TOKEN": os.environ.get("TELEGRAM_BOT_TOKEN", ""),
             "TELEGRAM_CHAT_ID": os.environ.get("TELEGRAM_CHAT_ID", ""),
-            "SLEEP_GAP": os.environ.get("SLEEP_GAP", "5"),
+            "SLEEP_GAP": os.environ.get("SLEEP_GAP", "20"),
             "USE_CONCURRENT": os.environ.get("USE_CONCURRENT", "False")
         }
     else:
